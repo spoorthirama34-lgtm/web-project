@@ -4,3 +4,4 @@
 	app.listen(port, function(){
 console.log("my app is running at http://localhost:"+port)
 })
+app.use(express,static("frontend"))
